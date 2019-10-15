@@ -10,6 +10,7 @@ import Modal2 from "./panels/Modal2";
 
 const App = () => (
 		<Page
+			id="test-page"
 			homePanel="panel1"
 			modals={[
 				<Modal1 id="modal1"/>,
