@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/vkui-navigator-example/static/js/main.e6a8c372.chunk.js",
-    "main.js.map": "/vkui-navigator-example/static/js/main.e6a8c372.chunk.js.map",
+    "main.js": "/vkui-navigator-example/static/js/main.b5f2a007.chunk.js",
+    "main.js.map": "/vkui-navigator-example/static/js/main.b5f2a007.chunk.js.map",
     "runtime-main.js": "/vkui-navigator-example/static/js/runtime-main.2aaaf5e7.js",
     "runtime-main.js.map": "/vkui-navigator-example/static/js/runtime-main.2aaaf5e7.js.map",
     "static/css/2.70f3b80d.chunk.css": "/vkui-navigator-example/static/css/2.70f3b80d.chunk.css",
     "static/js/2.c8a50053.chunk.js": "/vkui-navigator-example/static/js/2.c8a50053.chunk.js",
     "static/js/2.c8a50053.chunk.js.map": "/vkui-navigator-example/static/js/2.c8a50053.chunk.js.map",
     "index.html": "/vkui-navigator-example/index.html",
-    "precache-manifest.ec150d5d5d669eaad4fd70e9c1136372.js": "/vkui-navigator-example/precache-manifest.ec150d5d5d669eaad4fd70e9c1136372.js",
+    "precache-manifest.19bbf1558394910a04a4854eb68ce6cc.js": "/vkui-navigator-example/precache-manifest.19bbf1558394910a04a4854eb68ce6cc.js",
     "service-worker.js": "/vkui-navigator-example/service-worker.js",
     "static/css/2.70f3b80d.chunk.css.map": "/vkui-navigator-example/static/css/2.70f3b80d.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.2aaaf5e7.js",
     "static/css/2.70f3b80d.chunk.css",
     "static/js/2.c8a50053.chunk.js",
-    "static/js/main.e6a8c372.chunk.js"
+    "static/js/main.b5f2a007.chunk.js"
   ]
 }
