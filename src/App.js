@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Page } from "vkui-navigator/dist";
+import ConfigProvider from "@vkontakte/vkui/dist/components/ConfigProvider/ConfigProvider";
 
 import Panel1 from "./panels/Panel1";
 import Panel2 from "./panels/Panel2";
@@ -9,6 +10,7 @@ import Modal1 from "./panels/Modal1";
 import Modal2 from "./panels/Modal2";
 
 const App = () => (
+	<ConfigProvider isWebView>
 		<Page
 			id="test-page"
 			homePanel="panel1"
@@ -20,6 +22,7 @@ const App = () => (
 			<Panel1 id="panel1"/>
 			<Panel2 id="panel2"/>
 		</Page>
+	</ConfigProvider>
 );
 
 export default App;
