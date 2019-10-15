@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://hit2hat.github.io/vkui-navigator-example/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "react-scripts build && gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.1",
+    "gh-pages": "^2.1.1",
     "react-hot-loader": "^4.12.15",
     "react-scripts": "^3.2.0"
   },
@@ -25,7 +28,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "vkui-navigator": "^1.0.2"
+    "vkui-navigator": "^1.1.0"
   },
   "browserslist": {
     "production": [
