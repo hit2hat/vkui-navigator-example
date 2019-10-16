@@ -56,6 +56,12 @@ const Panel1 = ({ id, navigator }) => {
 					>
 						Показать спиннер (исчезнет сам)
 					</Button>
+					<Button
+						size="xl"
+						onClick={() => navigator.goPage("page2")}
+					>
+						Страница Page2
+					</Button>
 				</Div>
 			</Group>
 			<Group title="Модальные окна">

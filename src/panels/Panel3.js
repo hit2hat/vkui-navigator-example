@@ -6,33 +6,22 @@ import Button from "@vkontakte/vkui/dist/components/Button/Button";
 import Group from "@vkontakte/vkui/dist/components/Group/Group";
 import Div from "@vkontakte/vkui/dist/components/Div/Div";
 
-const Panel2 = ({ id, navigator }) => (
+const Panel3 = ({ id, navigator }) => (
 	<Panel id={id}>
 		<PanelHeader>
-			Панель 2
+			Панель 3
 		</PanelHeader>
-		<Group title="Параметры">
-			<Div>
-				{JSON.stringify(navigator.params)}
-			</Div>
-		</Group>
 		<Group>
-			<Div style={{ display: "grid", gridRowGap: "10px" }}>
+			<Div>
 				<Button
 					size="xl"
-					onClick={() => navigator.showModal("modal1")}
+					onClick={() => navigator.goPage("page1")}
 				>
-					Показать модальное окно
-				</Button>
-				<Button
-					size="xl"
-					onClick={() => navigator.goBack()}
-				>
-					Вернуться
+					Закрыть
 				</Button>
 			</Div>
 		</Group>
 	</Panel>
 );
 
-export default Panel2;
+export default Panel3;
