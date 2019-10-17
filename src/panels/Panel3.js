@@ -9,15 +9,27 @@ import Div from "@vkontakte/vkui/dist/components/Div/Div";
 const Panel3 = ({ id, navigator }) => (
 	<Panel id={id}>
 		<PanelHeader>
-			Панель 3
+			VKUI Navigator
 		</PanelHeader>
-		<Group>
-			<Div>
+		<Group title="Модальные окна">
+			<Div style={{ display: "grid", gridRowGap: "10px" }}>
 				<Button
 					size="xl"
-					onClick={() => navigator.goPage("page1")}
+					onClick={() => navigator.showModal("modal1")}
 				>
-					Закрыть
+					Показать модальное окно
+				</Button>
+				<Button
+					size="xl"
+					onClick={() => navigator.showModal("modal1", { title: "Пример" })}
+				>
+					Показать модальное окно + параметры
+				</Button>
+				<Button
+					size="xl"
+					onClick={() => navigator.showModal("modal2")}
+				>
+					Авто-генерация Header
 				</Button>
 			</Div>
 		</Group>
