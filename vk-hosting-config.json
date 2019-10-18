@@ -1,0 +1,8 @@
+{
+  "staticpath": "build",
+  "app_id": "7171285",
+  "secret_token": "10YaWcoRZX1HcmFnQ8U4",
+  "service_token": "107182861071828610718286ed101cee5311071107182864dd40741ccd673337929254b",
+  "access_token": "dc70b2f8c01bc624b27c74ff818592d04a986819098441db4e950eabc53fac9ef7b5089b06318d5a5d556",
+  "noprompt": true
+}

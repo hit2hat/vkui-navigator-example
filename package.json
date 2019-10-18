@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://hit2hat.github.io/vkui-navigator-example/",
+  "homepage": "./",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
@@ -21,6 +21,7 @@
   "dependencies": {
     "@vkontakte/icons": "^1.10.2",
     "@vkontakte/vk-connect": "^1.6.5",
+    "@vkontakte/vk-miniapps-deploy": "^0.0.3",
     "@vkontakte/vkui": "^2.31.0",
     "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
