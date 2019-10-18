@@ -11,6 +11,7 @@ import Modal2 from "./panels/Modal2";
 
 import Icon24Services from "@vkontakte/icons/dist/24/services";
 import Icon24Flash from "@vkontakte/icons/dist/24/flash";
+import Panel4 from "./panels/Panel4";
 
 const App = () => (
 	<Stack
@@ -42,6 +43,9 @@ const App = () => (
 				<Panel3 id="panel3"/>
 			</Page>
 		</Tabbar>
+		<Page id="page2" activePanel="panel4">
+			<Panel4 id="panel4"/>
+		</Page>
 	</Stack>
 );
 

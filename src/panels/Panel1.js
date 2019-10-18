@@ -58,25 +58,19 @@ const Panel1 = ({ id, navigator }) => {
 					</Button>
 				</Div>
 			</Group>
-			<Group title="Модальные окна">
+			<Group title="Страницы">
 				<Div style={{ display: "grid", gridRowGap: "10px" }}>
 					<Button
 						size="xl"
-						onClick={() => navigator.showModal("modal1")}
+						onClick={() => navigator.goPage("page2")}
 					>
-						Показать модальное окно
+						Показать Page2
 					</Button>
 					<Button
 						size="xl"
-						onClick={() => navigator.showModal("modal1", { title: "Пример" })}
+						onClick={() => navigator.goPage("page2", { param1: "hello" })}
 					>
-						Показать модальное окно + параметры
-					</Button>
-					<Button
-						size="xl"
-						onClick={() => navigator.showModal("modal2")}
-					>
-						Авто-генерация Header
+						Показать Page2 + параметры
 					</Button>
 				</Div>
 			</Group>
