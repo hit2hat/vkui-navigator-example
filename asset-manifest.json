@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/vkui-navigator-example/static/js/main.cd71c6b9.chunk.js",
-    "main.js.map": "/vkui-navigator-example/static/js/main.cd71c6b9.chunk.js.map",
+    "main.js": "/vkui-navigator-example/static/js/main.b3b8d93a.chunk.js",
+    "main.js.map": "/vkui-navigator-example/static/js/main.b3b8d93a.chunk.js.map",
     "runtime-main.js": "/vkui-navigator-example/static/js/runtime-main.2aaaf5e7.js",
     "runtime-main.js.map": "/vkui-navigator-example/static/js/runtime-main.2aaaf5e7.js.map",
     "static/css/2.70f3b80d.chunk.css": "/vkui-navigator-example/static/css/2.70f3b80d.chunk.css",
-    "static/js/2.03adfe3c.chunk.js": "/vkui-navigator-example/static/js/2.03adfe3c.chunk.js",
-    "static/js/2.03adfe3c.chunk.js.map": "/vkui-navigator-example/static/js/2.03adfe3c.chunk.js.map",
+    "static/js/2.0a759275.chunk.js": "/vkui-navigator-example/static/js/2.0a759275.chunk.js",
+    "static/js/2.0a759275.chunk.js.map": "/vkui-navigator-example/static/js/2.0a759275.chunk.js.map",
     "index.html": "/vkui-navigator-example/index.html",
-    "precache-manifest.72359dda36a7ce7a3782587eceb14974.js": "/vkui-navigator-example/precache-manifest.72359dda36a7ce7a3782587eceb14974.js",
+    "precache-manifest.1a00b5c039ec2b23cba999a935c1201a.js": "/vkui-navigator-example/precache-manifest.1a00b5c039ec2b23cba999a935c1201a.js",
     "service-worker.js": "/vkui-navigator-example/service-worker.js",
     "static/css/2.70f3b80d.chunk.css.map": "/vkui-navigator-example/static/css/2.70f3b80d.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.2aaaf5e7.js",
     "static/css/2.70f3b80d.chunk.css",
-    "static/js/2.03adfe3c.chunk.js",
-    "static/js/main.cd71c6b9.chunk.js"
+    "static/js/2.0a759275.chunk.js",
+    "static/js/main.b3b8d93a.chunk.js"
   ]
 }
